@@ -10,8 +10,8 @@ const Partners = () => {
                         <h2 className='text-xl md:text-2xl font-bold bg-gradient-to-r from-rose-500 via-blue-500 to-cyan-500 bg-clip-text text-transparent'>Brand partner</h2>
                         <p className='text-3xl md:text-4xl lg:text-6xl text-gray-100 font-semibold uppercase'>trusted by 100+ leading brands</p>
                     </div>
-                    <div className='flex items-center gap-8'>
-                        <div className='w-full h-52 rounded-xl bg-zinc-900 py-8 px-5 grid place-items-center relative shadow-2xl shadow-rose-400/20 before:absolute before:h-[102%] before:w-[102%] before:bg-gradient-to-br before:from-rose-500 before:to-cyan-500 before:rounded-xl before:-z-10'>
+                    <div className='flex flex-col md:flex-row items-center gap-8'>
+                        <div className='w-full h-52 rounded-xl bg-zinc-900 py-8 px-5 grid place-items-center relative shadow-2xl shadow-rose-400/20 before:absolute before:h-[101%] before:w-[101%] before:bg-gradient-to-br before:from-rose-500 before:to-cyan-500 before:rounded-xl before:-z-10'>
                             <h2 className='text-md md:text-lg text-gray-100 font-semibold'><span className='text-2xl md:text-3xl lg:text-4xl font-bold pr-2 md:pr-4'>4.9</span> G2 Crowd</h2>
                             <p className='flex items-center gap-2'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-300">
@@ -31,7 +31,7 @@ const Partners = () => {
                                 </svg>
                             </p>
                         </div>
-                        <div className='w-full h-52 rounded-xl bg-zinc-900 py-8 px-5 grid place-items-center relative shadow-2xl shadow-cyan-400/20 before:absolute before:h-[102%] before:w-[102%] before:bg-gradient-to-br before:from-rose-500 before:to-cyan-500 before:rounded-xl before:-z-10'>
+                        <div className='w-full h-52 rounded-xl bg-zinc-900 py-8 px-5 grid place-items-center relative shadow-2xl shadow-cyan-400/20 before:absolute before:h-[101%] before:w-[101%] before:bg-gradient-to-br before:from-rose-500 before:to-cyan-500 before:rounded-xl before:-z-10'>
                             <h2 className='text-md md:text-lg text-gray-100 font-semibold'><span className='text-2xl md:text-3xl lg:text-4xl font-bold pr-2 md:pr-4'>4.9</span> G2 Crowd</h2>
                             <p className='flex items-center gap-2'>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-300">
@@ -57,42 +57,41 @@ const Partners = () => {
                     <div className="">
                         <div className="w-full flex flex-col md:flex-row items-start justify-between gap-8">
                             <div className='flex flex-wrap items-center gap-8 justify-center sm:justify-start'>
-                                {/* FaBehance, FaDribbble, FaInstagram, FaDropbox, FaGoogle, FaLinkedin, Fa500Px, FaFacebook, FaTwitch */}
-                                <div className='h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center hover:scale-105 duration-300 cursor-pointer hover:shadow-rose-500/10'>
-                                    <FaBehance className='text-gray-100 text-2xl md:text-3xl lg:text-4xl hover:text-rose-400 duration-300' />
+                                <div className='group h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center hover:scale-105 duration-300 cursor-pointer hover:shadow-cyan-500/10'>
+                                    <FaBehance className='text-gray-100 text-2xl md:text-3xl lg:text-4xl group-hover:text-cyan-400 duration-300' />
                                 </div>
-                                <div className='h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center hover:scale-105 duration-300 cursor-pointer hover:shadow-rose-500/10'>
-                                    <FaDribbble className='text-gray-100 text-2xl md:text-3xl lg:text-4xl hover:text-rose-400 duration-300' />
+                                <div className='group h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center hover:scale-105 duration-300 cursor-pointer hover:shadow-cyan-500/10'>
+                                    <FaDribbble className='text-gray-100 text-2xl md:text-3xl lg:text-4xl group-hover:text-cyan-400 duration-300' />
                                 </div>
-                                <div className='h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center hover:scale-105 duration-300 cursor-pointer hover:shadow-rose-500/10'>
-                                    <FaInstagram className='text-gray-100 text-2xl md:text-3xl lg:text-4xl hover:text-rose-400 duration-300' />
+                                <div className='group h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center hover:scale-105 duration-300 cursor-pointer hover:shadow-cyan-500/10'>
+                                    <FaInstagram className='text-gray-100 text-2xl md:text-3xl lg:text-4xl group-hover:text-cyan-400 duration-300' />
                                 </div>
-                                <div className='h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center hover:scale-105 duration-300 cursor-pointer hover:shadow-rose-500/10'>
-                                    <FaDropbox className='text-gray-100 text-2xl md:text-3xl lg:text-4xl hover:text-rose-400 duration-300' />
+                                <div className='group h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center hover:scale-105 duration-300 cursor-pointer hover:shadow-cyan-500/10'>
+                                    <FaDropbox className='text-gray-100 text-2xl md:text-3xl lg:text-4xl group-hover:text-cyan-400 duration-300' />
                                 </div>
-                                <div className='h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center hover:scale-105 duration-300 cursor-pointer hover:shadow-rose-500/10'>
-                                    <FaDribbble className='text-gray-100 text-2xl md:text-3xl lg:text-4xl hover:text-rose-400 duration-300' />
+                                <div className='group h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center hover:scale-105 duration-300 cursor-pointer hover:shadow-cyan-500/10'>
+                                    <FaDribbble className='text-gray-100 text-2xl md:text-3xl lg:text-4xl group-hover:text-cyan-400 duration-300' />
                                 </div>
-                                <div className='h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center hover:scale-105 duration-300 cursor-pointer hover:shadow-rose-500/10'>
-                                    <FaInstagram className='text-gray-100 text-2xl md:text-3xl lg:text-4xl hover:text-rose-400 duration-300' />
+                                <div className='group h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center hover:scale-105 duration-300 cursor-pointer hover:shadow-cyan-500/10'>
+                                    <FaInstagram className='text-gray-100 text-2xl md:text-3xl lg:text-4xl group-hover:text-cyan-400 duration-300' />
                                 </div>
-                                <div className='h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center hover:scale-105 duration-300 cursor-pointer hover:shadow-rose-500/10'>
-                                    <FaDropbox className='text-gray-100 text-2xl md:text-3xl lg:text-4xl hover:text-rose-400 duration-300' />
+                                <div className='group h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center hover:scale-105 duration-300 cursor-pointer hover:shadow-cyan-500/10'>
+                                    <FaDropbox className='text-gray-100 text-2xl md:text-3xl lg:text-4xl group-hover:text-cyan-400 duration-300' />
                                 </div>
-                                <div className='h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center cursor-pointer hover:scale-105 duration-300 hover:shadow-rose-500/10'>
-                                    <FaGoogle className='text-gray-100 text-2xl md:text-3xl lg:text-4xl hover:text-rose-400 duration-300' />
+                                <div className='group h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center cursor-pointer hover:scale-105 duration-300 hover:shadow-cyan-500/10'>
+                                    <FaGoogle className='text-gray-100 text-2xl md:text-3xl lg:text-4xl group-hover:text-cyan-400 duration-300' />
                                 </div>
-                                <div className='h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center cursor-pointer hover:scale-105 duration-300 hover:shadow-rose-500/10'>
-                                    <FaLinkedin className='text-gray-100 text-2xl md:text-3xl lg:text-4xl hover:text-rose-400 duration-300' />
+                                <div className='group h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center cursor-pointer hover:scale-105 duration-300 hover:shadow-cyan-500/10'>
+                                    <FaLinkedin className='text-gray-100 text-2xl md:text-3xl lg:text-4xl group-hover:text-cyan-400 duration-300' />
                                 </div>
-                                <div className='h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center cursor-pointer hover:scale-105 duration-300 hover:shadow-rose-500/10'>
-                                    <Fa500Px className='text-gray-100 text-2xl md:text-3xl lg:text-4xl hover:text-rose-400 duration-300' />
+                                <div className='group h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center cursor-pointer hover:scale-105 duration-300 hover:shadow-cyan-500/10'>
+                                    <Fa500Px className='text-gray-100 text-2xl md:text-3xl lg:text-4xl group-hover:text-cyan-400 duration-300' />
                                 </div>
-                                <div className='h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center cursor-pointer hover:scale-105 duration-300 hover:shadow-rose-500/10'>
-                                    <FaFacebook className='text-gray-100 text-2xl md:text-3xl lg:text-4xl hover:text-rose-400 duration-300' />
+                                <div className='group h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center cursor-pointer hover:scale-105 duration-300 hover:shadow-cyan-500/10'>
+                                    <FaFacebook className='text-gray-100 text-2xl md:text-3xl lg:text-4xl group-hover:text-cyan-400 duration-300' />
                                 </div>
-                                <div className='h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center cursor-pointer hover:scale-105 duration-300 hover:shadow-rose-500/10'>
-                                    <FaTwitch className='text-gray-100 text-2xl md:text-3xl lg:text-4xl hover:text-rose-400 duration-300' />
+                                <div className='group h-20 w-20 rounded-2xl bg-zinc-800 shadow-xl grid place-items-center cursor-pointer hover:scale-105 duration-300 hover:shadow-cyan-500/10'>
+                                    <FaTwitch className='text-gray-100 text-2xl md:text-3xl lg:text-4xl group-hover:text-cyan-400 duration-300' />
                                 </div>
                             </div>
                             <div className='w-full lg:w-1/2'>

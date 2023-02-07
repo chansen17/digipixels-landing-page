@@ -2,7 +2,11 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className="w-full h-full py-24 md:py-32">
+        <div className="w-full h-full py-24" style={{
+            'background-image': 'linear-gradient(rgba(255,255,255,.02) 1px, transparent 1px), linear-gradient(to right, rgba(255,255,255,.02) 1px, transparent 1px)',
+            'background-size': '100px 100px',
+            'background-color':' rgba(255, 255, 255, 0)',
+            }}>
             <div className="mxw-lg grid grid-cols-1 md:grid-cols-2 gap-8 items-start overflow-y-hidden">
                 <div className='space-y-4'>
                     <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-rose-500 via-purple-500 to-cyan-500 bg-clip-text text-transparent'>contact us</h2>
@@ -14,7 +18,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className=''>
-                    <div className='pt-6 pb-20 bg-zinc-900 px-4 border border-rose-300/50 rounded-2xl shadow-2xl shadow-rose-300/10'>
+                    <div className='py-6 bg-zinc-900 px-4 border border-rose-300/50 rounded-2xl shadow-2xl shadow-rose-300/10'>
                         <form className=''>
                             <div className=''>
                                 <p className='px-1 text-sm md:text-md text-gray-300 py-2'>Full Name</p>
@@ -32,20 +36,16 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <section className="mxw-lg w-full h-72 grid place-items-center -mt-10" style={{
-            'background-image': 'linear-gradient(rgba(255,255,255,.02) 1px, transparent 1px), linear-gradient(to right, rgba(255,255,255,.02) 1px, transparent 1px)',
-            'background-size': '100px 100px',
-            'background-color':' rgba(255, 255, 255, 0)',
-        }}>
+            <section className="mxw-lg w-full h-72 grid place-items-center -mt-10 mb-20">
                 <div className='max-w-3xl text-center pt-32'>
                    <div className='space-y-4'>
                     <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-rose-500 via-purple-500 to-cyan-500 bg-clip-text text-transparent'>Connect Now</h2>
-                    <p className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-gray-100 font-bold leading-loose'>Lorem ipsum dolor sit.</p>
+                    <p className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-gray-100 font-bold leading-loose uppercase'>Lorem ipsum dolor sit.</p>
                     <p className='text-gray-200 font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sapiente nobis, doloribus exercitationem dolorum incidunt iste esse voluptatum perspiciatis itaque?</p>
                    </div>
                     <div className="mt-10 w-full flex items-center justify-center gap-4 md:gap-8">
-                        <button className="py-3 px-4 font-medium text-gray-100 bg-purple-600 rounded-xl">Sign Up Now</button>
-                        <button className="py-3 px-4 font-medium text-gray-100 bg-none rounded-xl">Request Demo</button>
+                        <button className="py-3 px-4 font-medium text-gray-100 bg-purple-600 rounded-lg">Sign Up Now</button>
+                        <button className="py-3 px-4 font-medium text-gray-100 bg-none rounded-lg">Request Demo</button>
                     </div>
                 </div>
             </section>
