@@ -11,22 +11,22 @@ const Footer = () => {
                 <div>
                     <ul className=''>
                         <li className='font-bold uppercase'>Products</li>
-                        <li className='FONT-LIGHT'>Attribution</li>
-                        <li className='FONT-LIGHT'>Sales</li>
+                        <li className='font-light'>Attribution</li>
+                        <li className='font-light'>Sales</li>
                     </ul>
                 </div>
                 <div>
                     <ul className=''>
                         <li className='font-bold uppercase'>Solution</li>
-                        <li className='FONT-LIGHT'>Attribution</li>
-                        <li className='FONT-LIGHT'>Sales</li>
+                        <li className='font-light'>Attribution</li>
+                        <li className='font-light'>Sales</li>
                     </ul>
                 </div>
                 <div>
                     <ul className=''>
                         <li className='font-bold uppercase'>Menu</li>
-                        <li className='FONT-LIGHT'>Attribution</li>
-                        <li className='FONT-LIGHT'>Sales</li>
+                        <li className='font-light'>Attribution</li>
+                        <li className='font-light'>Sales</li>
                     </ul>
                 </div>
             </div>
