@@ -11,7 +11,7 @@ const Partners = () => {
                         <p className='text-3xl md:text-4xl lg:text-6xl text-gray-100 font-semibold uppercase'>trusted by 100+ leading brands</p>
                     </div>
                     <div className='flex flex-col md:flex-row items-center gap-8'>
-                        <div className='w-full h-52 rounded-xl bg-zinc-900 py-8 px-5 grid place-items-center relative shadow-2xl shadow-rose-400/20 before:absolute before:h-[101%] before:w-[101%] before:bg-gradient-to-br before:from-rose-500 before:to-cyan-500 before:rounded-xl before:-z-10'>
+                        <div className='w-full h-52 rounded-xl bg-zinc-900 py-8 px-5 grid place-items-center relative shadow-2xl shadow-rose-400/20 before:absolute before:h-[101%] before:w-[101%] before:bg-gradient-to-br before:from-rose-500 before:to-cyan-500 before:rounded-xl before:-z-10 hover:before:blur-2xl duration-300 transition-all before:transition-all'>
                             <h2 className='text-md md:text-lg text-gray-100 font-semibold'><span className='text-2xl md:text-3xl lg:text-4xl font-bold pr-2 md:pr-4'>4.9</span> G2 Crowd</h2>
                             <p className='flex items-center gap-2'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-300">
@@ -31,7 +31,7 @@ const Partners = () => {
                                 </svg>
                             </p>
                         </div>
-                        <div className='w-full h-52 rounded-xl bg-zinc-900 py-8 px-5 grid place-items-center relative shadow-2xl shadow-cyan-400/20 before:absolute before:h-[101%] before:w-[101%] before:bg-gradient-to-br before:from-rose-500 before:to-cyan-500 before:rounded-xl before:-z-10'>
+                        <div className='w-full h-52 rounded-xl bg-zinc-900 py-8 px-5 grid place-items-center relative shadow-2xl shadow-cyan-400/20 before:absolute before:h-[101%] before:w-[101%] before:bg-gradient-to-br before:from-rose-500 before:to-cyan-500 before:rounded-xl hover:before:blur-2xl duration-300 transition-all before:transition-all before:-z-10'>
                             <h2 className='text-md md:text-lg text-gray-100 font-semibold'><span className='text-2xl md:text-3xl lg:text-4xl font-bold pr-2 md:pr-4'>4.9</span> G2 Crowd</h2>
                             <p className='flex items-center gap-2'>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-amber-300">
@@ -95,7 +95,7 @@ const Partners = () => {
                                 </div>
                             </div>
                             <div className='w-full lg:w-1/2'>
-                                <div className='w-full border-2 border-purple-500 h-auto rounded-xl bg-gradient-to-br from-rose-400 via-violet-500 to-cyan-500  py-8 px-5 relative shadow-2xl shadow-rose-400/20 space-y-3 text-gray-100'>
+                                <div className='w-full border-4 border-cyan-500 hover:scale-105 duration-300 transition-all h-auto rounded-xl bg-gradient-to-br from-rose-400 via-violet-500 to-cyan-500  py-8 px-5 relative shadow-2xl shadow-rose-400/20 space-y-3 text-gray-100'>
                                     <h2 className='text-sm md:text-md lg:text-lg font-semibold max-w-xs'>Explore our most awesome clients!<br/> + 90 More</h2>
                                     <div className="w-full flex items-center justify-between gap-4">
                                         <p className='text-sm md:text-md flex items-center'>Lorem ipsum dolor sit amet.</p>
