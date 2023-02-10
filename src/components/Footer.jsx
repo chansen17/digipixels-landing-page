@@ -4,10 +4,10 @@ const Footer = () => {
     return (
         <div className='w-full pb-12'>
             <div className='w-full h-[2px] bg-gradient-to-r from-transparent via-purple-500 to-transparent mb-10'/>
-            <div className="mxw-lg w-full grid grid-cols-1 md:grid-cols-4 items-start gap-6 md:gap-10 text-gray-200">
+            <div className="mxw-lg w-full grid grid-cols-2 md:grid-cols-4 items-start gap-6 md:gap-10 text-gray-200">
                 <div className='space-y-3'>
                     <h2 className='text-2xl md:text-3xl font-black bg-gradient-to-r from-rose-500 via-purple-500 to-cyan-500 bg-clip-text text-transparent'>DigiPixel</h2>
-                    <p className='font-light md:max-w-md'>Lorem ipsum dolor sit amet consectetur, ciatis fugit doloremque.</p>
+                    <p className='font-light'>Lorem ipsum dolor sit amet consectetur, ciatis fugit doloremque.</p>
                 </div>
                 <div>
                     <ul className=''>

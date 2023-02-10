@@ -24,7 +24,7 @@ const Features = () => {
                                 <img className='w-full h-full -bottom-12 left-0 absolute object-cover rounded-2xl' src="/feature-5.png" alt="" />
                             </div>
                             <div className='py-4 px-2 space-y-3'>
-                                <h2 className='text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold'>Tracking</h2>
+                                <h2 className='text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold'>Analytics</h2>
                                 <p className='text-md md:text-lg font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatum harum consectetur.</p>
                             </div>
                         </div>
@@ -33,7 +33,7 @@ const Features = () => {
                                 <img className='w-full h-full -bottom-12 left-0 absolute object-cover rounded-2xl' src="/feature-6.png" alt="" />
                             </div>
                             <div className='py-4 px-2 space-y-3'>
-                                <h2 className='text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold'>Tracking</h2>
+                                <h2 className='text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold'>Growth</h2>
                                 <p className='text-md md:text-lg font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatum harum consectetur.</p>
                             </div>
                         </div>

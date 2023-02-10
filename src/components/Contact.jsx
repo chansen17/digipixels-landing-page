@@ -18,26 +18,26 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className=''>
-                    <div className='py-6 bg-zinc-900 px-4 border border-rose-300/50 rounded-2xl shadow-2xl shadow-rose-300/10'>
+                    <div className='py-6 bg-zinc-900 px-4 border border-rose-400/40 rounded-2xl'>
                         <form className=''>
                             <div className=''>
                                 <p className='px-1 text-sm md:text-md text-gray-300 py-2'>Full Name</p>
-                                <input className='w-full py-3 px-4 bg-zinc-800 border border-zinc-700 outline-none rounded-xl' type="text" placeholder="Your Name" />
+                                <input className='w-full py-3 px-4 text-rose-300 caret-inherit placeholder:text-gray-600 bg-zinc-800 border border-zinc-700 outline-none rounded-xl' type="text" placeholder="Your Name" />
                             </div>
                             <div className=''>
-                                <p className='px-1 text-sm md:text-md text-gray-300 py-2'>Full Name</p>
-                                <input className='w-full py-3 px-4 bg-zinc-800 border border-zinc-700 outline-none rounded-xl' type="text" placeholder="Your Name" />
+                                <p className='px-1 text-sm md:text-md text-gray-300 py-2'>Email</p>
+                                <input className='w-full py-3 px-4 text-rose-300 caret-inherit placeholder:text-gray-600 bg-zinc-800 border border-zinc-700 outline-none rounded-xl' type="text" placeholder="Your Email" />
                             </div>
                             <div className=''>
-                                <p className='px-1 text-sm md:text-md text-gray-300 py-2'>Full Name</p>
-                                <textarea className='w-full py-3 px-4 bg-zinc-800 border border-zinc-700 outline-none rounded-xl' type="text" placeholder="Your Name" rows={3}/>
+                                <p className='px-1 text-sm md:text-md text-gray-300 py-2'>Message</p>
+                                <textarea className='w-full py-3 px-4 text-rose-300 caret-inherit placeholder:text-gray-600 bg-zinc-800 border border-zinc-700 outline-none rounded-xl' type="text" placeholder="Your Message" rows={3}/>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-            <section className="mxw-lg w-full h-72 grid place-items-center -mt-10 mb-20">
-                <div className='max-w-3xl text-center pt-32'>
+            <section className="mxw-lg w-full h-72 grid place-items-center mb-14 md:mb-24">
+                <div className='max-w-3xl text-center pt-32 pb-12'>
                    <div className='space-y-4'>
                     <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-rose-500 via-purple-500 to-cyan-500 bg-clip-text text-transparent'>Connect Now</h2>
                     <p className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-gray-100 font-bold leading-loose uppercase'>Lorem ipsum dolor sit.</p>
